@@ -450,6 +450,7 @@ img {
 
 .client-logo {
   fill: var(--icon-main-color);
+  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
 .client-link {
@@ -461,8 +462,7 @@ img {
   border: 1px solid var(--client-border-color);
   border-radius: 4px;
   transition: border var(--transition-duration)
-      var(--transition-timing-function),
-    filter var(--transition-duration) var(--transition-timing-function);
+    var(--transition-timing-function);
 }
 
 .client-link:hover,
